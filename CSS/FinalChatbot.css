@@ -1,0 +1,121 @@
+.container{
+   display:flex;
+   align-items:center;
+   justify-content:space-between;
+}
+
+.chatContent{
+    background-color:cyan;
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius:30px;
+    
+
+}
+.chatRobot{
+  margin-left:100px;  
+  margin-top:20px;
+position:relative;
+
+
+}
+
+.chatRobot >h1{
+    color:#41BA60;
+    
+}
+
+.chatHeader{
+    background-color:#41BA60;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.logo >img{
+    width:40px;
+    height:40px;
+    margin-left:10px;
+
+}
+.par >p{
+    font-size:12px;
+    color:white;
+    font-weight:bold;
+
+}
+.huzaLogo >img{
+    width:40px;
+    height:40px;
+    margin-right:10px;
+
+}
+
+.chatContent{
+background-color:#FFFFFF;
+width:600px;
+margin-right:100px;
+border: 2px solid #c4c4c4c4;
+height:400px;
+
+}
+
+.chatmessage >img{
+    width:30px;
+    height:30px;
+    margin-top:40px;
+    margin-left:4px;
+    
+   
+
+}
+
+.chatmessage {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:rows
+    margin-left:30px;
+    position:absolute;
+}
+
+
+.chatmessage >p{
+    background-color:#C4C4C4;
+    padding:10px;
+    border-radius: 7px;
+    margin-top:60px;
+}
+
+.chatmessage1 >p{
+    background-color:#41BA60;
+    color:white;
+    padding:10px;
+    border-radius: 7px;
+    margin-left:170px;
+    margin-top:1px;
+    margin-right:14px;
+  
+}
+
+.chatmessage1 >img{
+    width:30px;
+    height:30px;
+    margin-top:140px;
+    margin-left:400px;
+    border-radius: 50%;
+
+}
+
+.footer{
+    
+    
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-top:91px;
+    background-color:WHITE;
+    color:433838;
+    padding:12px;
+    border-radius:30px;
+    border: 2px solid #c4c4c4c4;
+}
+
